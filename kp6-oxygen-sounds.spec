@@ -6,12 +6,11 @@
 %define		kpname		oxygen-sounds
 Summary:	Sound files for Plasma
 Summary(pl.UTF-8):	Pliki dżwiękowe dla Plasmy
-######		Unknown group!
 Name:		kp6-%{kpname}
 Version:	6.1.5
 Release:	1
 License:	BSD-2-Clause/CC-BY-3.0/CC0-1.0/LGPL-3.0-or-later
-Group:		Multimedia
+Group:		X11/Applications/Sound
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
 # Source0-md5:	bfb0a8f7fda21863acd7784e304556b8
 URL:		http://www.kde.org/
