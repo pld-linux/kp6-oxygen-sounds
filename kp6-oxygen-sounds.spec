@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeplasmaver	6.6.5
+%define		kdeplasmaver	6.7.0
 %define		qtver		5.15.2
 %define		kpname		oxygen-sounds
 Summary:	Sound files for Plasma
 Summary(pl.UTF-8):	Pliki dżwiękowe dla Plasmy
 Name:		kp6-%{kpname}
-Version:	6.6.5
+Version:	6.7.0
 Release:	1
 License:	BSD-2-Clause/CC-BY-3.0/CC0-1.0/LGPL-3.0-or-later
 Group:		X11/Applications/Sound
 Source0:	https://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	45a03472ef7d1731758537188cf14b2b
+# Source0-md5:	e592dc02fceb6b66598d9a469ac43972
 URL:		http://www.kde.org/
 BuildRequires:	cmake >= 3.16.0
 BuildRequires:	kf6-extra-cmake-modules >= 1.4.0
